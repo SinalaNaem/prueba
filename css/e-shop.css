@@ -1,0 +1,98 @@
+@media screen and (min-width: 640px){
+	body.page {
+		
+	}
+}	
+@media screen and (min-width: 960px){
+	body.page {
+		
+	}
+}	
+@media screen and (min-width: 1200px){
+	body.page {
+		
+	}
+}	
+@media screen and (min-width: 1600px){
+	body.page {
+		
+	}
+}
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+background-image: linear-gradient(-225deg, #473B7B 0%, #3584A7 51%, #30D2BE 100%);
+box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.uk-navbar-nav>li>a {
+    color: #222;
+    text-transform: uppercase;
+    transition: .1s ease-in-out;
+    transition-property: color,background-color;
+}
+
+html {
+color: #fff;
+background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}
+
+.uk-card-footer {
+    padding: 0px 0px;
+}
+
+.uk-card-body {
+    padding: 0px 0px;
+}
+
+.uk-card-header {
+    padding: 5px 5px;
+}
+
+.uk-card-primary {
+    background: #03A9F4;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.uk-card-gradient-background {
+    background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.uk-card-gradient-head {
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+ background-blend-mode: multiply;
+    color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.uk-accordion-title {
+    display: block;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #333;
+    overflow: hidden;
+}
+
+*+[class*=uk-align] {
+    margin-top: 0px;
+}
+
+[class*=uk-align] {
+    display: block;
+    margin-bottom: 0px;
+}
+
+.uk-margin-top {
+    margin-top: 30px!important;
+}
+
+.uk-section-small {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.uk-card-primary.uk-card-body, .uk-card-primary>:not([class*=uk-card-media]), .uk-card-secondary.uk-card-body, .uk-card-secondary>:not([class*=uk-card-media]), .uk-light, .uk-offcanvas-bar, .uk-overlay-primary, .uk-section-primary:not(.uk-preserve-color), .uk-section-secondary:not(.uk-preserve-color), .uk-tile-primary:not(.uk-preserve-color), .uk-tile-secondary:not(.uk-preserve-color) {
+    color: rgb(255, 255, 255);
+}
